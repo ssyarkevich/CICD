@@ -14,8 +14,7 @@ on:
 jobs:
   run-github-actions-env:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    
     steps:
       - name: Show Trigger Event
       run: echo "This job was triggered by a ${{ github.event_name }} event."
