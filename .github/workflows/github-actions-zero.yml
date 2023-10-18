@@ -25,7 +25,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Display Checkout Status
-        echo "The ${{ github.repository }} was checkouted."
+        run: echo "The ${{ github.repository }} was checkouted."
 
       - name: List Repository Files
         run: |
